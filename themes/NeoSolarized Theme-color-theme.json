@@ -69,7 +69,8 @@
 				"variable",
 				"variable.other.readwrite",
 				"variable.other.constant",
-				"text.html.derivative"
+				"text.html.derivative",
+				"meta.jsx.children"
 			],
 			"settings": {
 				"foreground": "#93a1a1"
