@@ -1,6 +1,7 @@
 {
     "name": "neosolarized-theme",
     "displayName": "NeoSolarized Theme",
+    "repository": "https://github.com/Jschles1/neosolarized-theme",
     "description": "",
     "version": "0.0.1",
     "engines": {
