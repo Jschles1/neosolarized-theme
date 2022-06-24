@@ -300,13 +300,32 @@
 			}
 		},
 		{
+			"name": "Try, catch",
+			"scope": [
+				"keyword.control.trycatch"
+			],
+			"settings": {
+				"foreground": "#859900"
+			}
+			
+		},
+		{
 			"name": "Number",
 			"scope": [
 				"constant.numeric",
-				"constant.language.boolean"
 			],
 			"settings": {
 				"foreground": "#6c71c4"
+			}
+		},
+		{
+			"name": "Null & Boolean",
+			"scope": [
+				"constant.language.null",
+				"constant.language.boolean"
+			],
+			"settings": {
+				"foreground": "#d33682"
 			}
 		},
 		{
