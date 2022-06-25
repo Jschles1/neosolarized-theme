@@ -26,6 +26,7 @@
 		"statusBar.foreground": "#93a1a1",
 		"statusBar.noFolderForeground": "#93a1a1",
 		"statusBar.border": "#586e75",
+		"statusBar.debuggingBackground": "#002b36",
 		"activityBarBadge.background": "#b58900",
 		"activityBarBadge.foreground": "#002b36",
 		"sideBarTitle.foreground": "#93a1a1",
@@ -60,7 +61,16 @@
 		"menu.selectionForeground": "#93a1a1",
 		"titleBar.activeBackground": "#002b36",
 		"titleBar.activeForeground": "#93a1a1",
-		"titleBar.border": "#586e75"
+		"titleBar.border": "#586e75",
+		"dropdown.background": "#010d11",
+		"dropdown.border": "#586e75",
+		"dropdown.foreground": "#93a1a1",
+		"notifications.border": "#586e75",
+		"notifications.background": "#010d11",
+		"notifications.foreground": "#93a1a1",
+		"quickInput.background": "#010d11",
+		"quickInput.foreground": "#93a1a1",
+		"pickerGroup.border": "#586e75"
 	},
 	"tokenColors": [
 		{
