@@ -141,6 +141,7 @@
 				"punctuation.separator.inheritance.php",
 				"punctuation.section.embedded",
 				"punctuation.definition.block.js.jsx",
+				"punctuation.accessor",
 				"meta.objectliteral",
 				"meta.embedded.expression.js.jsx",
 				"meta.brace.round",
