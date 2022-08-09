@@ -329,6 +329,33 @@
 				"foreground": "#6c71c4"
 			}
 		},
+		
+		{
+			"name": "Number CSS",
+			"scope": [
+				"constant.numeric.css",
+				"keyword.other.unit.px.css",
+				"keyword.other.unit.em.css",
+				"keyword.other.unit.rem.css",
+				"constant.other.color.rgb-value.hex.css",
+				"keyword.other.unit.percentage.css"
+			],
+			"settings": {
+				"foreground": "#00afaf"
+			}
+		},
+		{
+			"name": "CSS Punctuation",
+			"scope": [
+				"punctuation.terminator.rule.css",
+				"punctuation.definition.constant.css",
+				"punctuation.separator.key-value.css"
+			],
+			"settings": {
+				"foreground": "#dc322f"
+			}
+		},
+		
 		{
 			"name": "Null & Boolean",
 			"scope": [
@@ -345,13 +372,24 @@
 				"string",
 				"constant.other.symbol",
 				"constant.other.key",
-				// "entity.other.inherited-class",
 				"markup.heading",
 				"markup.inserted.git_gutter",
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
 				"foreground": "#00afaf"
+			}
+		},
+		{
+			"name": "Link string",
+			"scope": [
+				"constant.numeric",
+				"meta.attribute.href.html",
+				"meta.attribute.src.html",
+				"meta.tag.metadata.link.void.html",
+			],
+			"settings": {
+				"foreground": "#6c71c4"
 			}
 		},
 		{
@@ -392,7 +430,7 @@
 				"punctuation.definition.parameters.end.bracket.round.css"
 			],
 			"settings": {
-				"foreground": "#93a1a1"
+				"foreground": "#268bd2"
 			}
 		},
 		{
@@ -401,7 +439,7 @@
 				"support.constant.property-value.css"
 			],
 			"settings": {
-				"foreground": "#cb4b16"
+				"foreground": "#93a1a1"
 			}
 		},
 		{
@@ -442,17 +480,6 @@
 				"foreground": "#268bd2"
 			}
 		},
-		// {
-		// 	"name": "HTML Attributes",
-		// 	"scope": [
-		// 		"text.html.basic entity.other.attribute-name.html",
-		// 		"text.html.basic entity.other.attribute-name"
-		// 	],
-		// 	"settings": {
-		// 		"fontStyle": "italic",
-		// 		"foreground": "#000"
-		// 	}
-		// },
 		{
 			"name": "CSS Classes",
 			"scope": [
