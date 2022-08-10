@@ -338,7 +338,13 @@
 				"keyword.other.unit.em.css",
 				"keyword.other.unit.rem.css",
 				"constant.other.color.rgb-value.hex.css",
-				"keyword.other.unit.percentage.css"
+				"keyword.other.unit.percentage.css",
+				"constant.numeric.scss",
+				"keyword.other.unit.px.scss",
+				"keyword.other.unit.em.scss",
+				"keyword.other.unit.rem.scss",
+				"constant.other.color.rgb-value.hex.scss",
+				"keyword.other.unit.percentage.scss"
 			],
 			"settings": {
 				"foreground": "#00afaf"
@@ -349,7 +355,10 @@
 			"scope": [
 				"punctuation.terminator.rule.css",
 				"punctuation.definition.constant.css",
-				"punctuation.separator.key-value.css"
+				"punctuation.separator.key-value.css",
+				"punctuation.terminator.rule.scss",
+				"punctuation.definition.constant.scss",
+				"punctuation.separator.key-value.scss",
 			],
 			"settings": {
 				"foreground": "#dc322f"
